@@ -1,0 +1,62 @@
+2019-12-09 00:28:46.405 +02:00 [WRN] Failed to determine the https port for redirect.
+2019-12-09 00:28:47.734 +02:00 [ERR] The view 'Index' was not found. Searched locations: ["/Views/Home/Index.cshtml","/Views/Shared/Index.cshtml","/Pages/Shared/Index.cshtml"]
+2019-12-09 00:28:47.860 +02:00 [ERR] Exception message: System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Home/Index.cshtml
+/Views/Shared/Index.cshtml
+/Pages/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at PaymentAPI.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Andrii\source\repos\PaymentAPI\PaymentAPI\Middleware\ExceptionMiddleware.cs:line 25 
+2019-12-09 00:28:48.018 +02:00 [ERR] HTTP GET / responded 500 in 1630.4652 ms
+2019-12-09 00:31:20.009 +02:00 [INF] Status code: 200
+2019-12-09 00:31:20.012 +02:00 [INF] HTTP POST /api/payment responded 200 in 74952.1961 ms
+2019-12-09 00:33:03.906 +02:00 [INF] Status code: 200
+2019-12-09 00:33:03.906 +02:00 [INF] HTTP POST /api/payment responded 200 in 72967.6148 ms
+2019-12-09 00:33:27.338 +02:00 [INF] Status code: 200
+2019-12-09 00:33:27.338 +02:00 [INF] HTTP POST /api/payment responded 200 in 71989.7256 ms
+2019-12-09 00:34:13.311 +02:00 [INF] Status code: 200
+2019-12-09 00:34:13.311 +02:00 [INF] HTTP POST /api/payment responded 200 in 71476.6607 ms
+2019-12-09 00:37:37.582 +02:00 [INF] Status code: 200
+2019-12-09 00:37:37.583 +02:00 [INF] HTTP POST /api/payment responded 200 in 72922.2004 ms
+2019-12-09 00:40:01.921 +02:00 [INF] Status code: 200
+2019-12-09 00:40:01.922 +02:00 [INF] HTTP POST /api/payment responded 200 in 2183.7541 ms
+2019-12-09 09:38:16.254 +02:00 [WRN] Failed to determine the https port for redirect.
+2019-12-09 09:38:17.137 +02:00 [ERR] The view 'Index' was not found. Searched locations: ["/Views/Home/Index.cshtml","/Views/Shared/Index.cshtml","/Pages/Shared/Index.cshtml"]
+2019-12-09 09:38:17.240 +02:00 [ERR] Exception message: System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Home/Index.cshtml
+/Views/Shared/Index.cshtml
+/Pages/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at PaymentAPI.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext httpContext) in C:\Users\Andrii\source\repos\PaymentAPI\PaymentAPI\Middleware\ExceptionMiddleware.cs:line 25 
+2019-12-09 09:38:17.352 +02:00 [ERR] HTTP GET / responded 500 in 1101.8511 ms
+2019-12-09 09:42:30.653 +02:00 [INF] Status code: 200
+2019-12-09 09:42:30.656 +02:00 [INF] HTTP POST /api/payment responded 200 in 4121.8857 ms
